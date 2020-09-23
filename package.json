@@ -1,0 +1,22 @@
+{
+  "name": "among-us",
+  "version": "1.0.0",
+  "description": "Allow users to mute and unmute players easier while playing AmongUs",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node ./dist/src/index.js",
+    "start:build": "tsc && node ./dist/src/index.js",
+    "start:debug": "node --inspect ./dist/src/index.js",
+    "build": "tsc"
+  },
+  "author": "Ember",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.6",
+    "typescript": "^3.8.2"
+  }
+}

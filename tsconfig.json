@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "target": "es5",
+        "outDir": "dist",
+        "composite": true,
+    },
+    "lib": ["es2015"],
+    "include": [
+        "src",
+        "resources/*.ts",
+    ],
+    "exclude": [
+        ".vscode",
+        "dist",
+        "node_modules",
+    ]
+}
