@@ -1,0 +1,41 @@
+{
+  "discord": {
+    "ID": "",
+    "TOKEN": ""
+  },
+  "commandPrefix": ".",
+  "emotes": {
+    "unmute": "🔊",
+    "mute": "🔇"
+  },
+  "messages": {
+    "usage": "Use .amongus [start, setchannel]",
+    "setChannelUsage": "Use .amongus setchannel <channel>",
+    "invalidChannel": "Could not find the voice channel you mentioned.",
+    "noVoiceChannel": "You haven't set your voice channel set. Use .amongus setchannel <channel>",
+    "setVoiceChannel": "You have set your voice channel to {channel}",
+    "noGameActive": "There is no active game in your server",
+    "started": {
+      "embed": {
+        "title": "AmongUs Voice Moderation: {channel}",
+        "description": "Use 🔊 to unmute\nUse 🔇 to mute",
+        "color": 65535,
+        "timestamp": "{time}",
+        "footer": {
+          "text": "Created by Ember#1404"
+        }
+      }
+    },
+    "ended": {
+      "embed": {
+        "title": "AmongUs Voice Moderation: {channel}",
+        "description": "Game ended\nUse `.amongus start` to start another game",
+        "color": 16711680,
+        "timestamp": "{time}",
+        "footer": {
+          "text": "Created by Ember#1404"
+        }
+      }
+    }
+  }
+}
