@@ -22,18 +22,18 @@ export async function amongUsCommand(message: Message, args: string[]) {
     switch (args[0].toLowerCase()) {
       case 'start':
         startSubcmd(message);
-        break;
+        return;
       case 'stop':
         stopSubcmd(message);
-        break;
+        return;
       case 'setchannel':
         if (args.length == 1) {
           sendMessage(message, settings.messages.setChannelUsage);
-          break;
+          return;
         }
         const channel = getVoiceChannel(message.guild, args[1]);
         setChannelSubcmd(message, channel);
-        break;
+        return;
     }
   }
 
